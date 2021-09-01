@@ -24,7 +24,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 
 # Add kernel build user
 [ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
-    echo 'CONFIG_KERNEL_BUILD_USER="P3TERX"' >>.config ||
+    echo 'CONFIG_KERNEL_BUILD_USER="BrianLuo"' >>.config ||
     sed -i 's@\(CONFIG_KERNEL_BUILD_USER=\).*@\1$"BrianLuo"@' .config
 
 # Add kernel build domain
