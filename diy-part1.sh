@@ -18,5 +18,5 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/kenzok8/small' >>feeds.conf.default
-git clone https://github.com/sbwml/luci-app-mosdns packages/mosdns
-git clone https://github.com/sbwml/v2ray-geodata packages/geodata
+git clone https://github.com/sbwml/luci-app-mosdns package/mosdns
+git clone https://github.com/sbwml/v2ray-geodata package/geodata
