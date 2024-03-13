@@ -17,9 +17,9 @@ sed -i 's/192.168.1.1/192.168.168.1/g' package/base-files/files/bin/config_gener
 sed -i 's/OpenWrt/BrianRT/g' package/base-files/files/bin/config_generate
 
 # Modify AdbybyPlus Script
-sed -i 's/https:\/\/adbyby\.coding\.net\/p\/xwhyc-rules\/d\/xwhyc-rules\/git\/raw\/master\//https:\/\/raw.githubusercontent.com\/keung2020\/xwhyc-rules\/master\//g' feeds/luci/applications/luci-app-adbyby-plus/root/usr/share/adbyby/adupdate.sh
-sed -i 's/https:\/\/adbyby\.coding\.net\/p\/xwhyc-rules\/d\/xwhyc-rules\/git\/raw\/master\//https:\/\/raw.githubusercontent.com\/keung2020\/xwhyc-rules\/master\//g' feeds/luci/applications/luci-app-adbyby-plus/root/usr/share/adbyby/adbybyupdate.sh
-sed -i 's/https:\/\/adbyby\.coding\.net\/p\/xwhyc-rules\/d\/xwhyc-rules\/git\/raw\/master\//https:\/\/raw.githubusercontent.com\/keung2020\/xwhyc-rules\/master\//g' feeds/luci/applications/luci-app-adbyby-plus/root/usr/share/adbyby/admem.sh
+#sed -i 's/https:\/\/adbyby\.coding\.net\/p\/xwhyc-rules\/d\/xwhyc-rules\/git\/raw\/master\//https:\/\/raw.githubusercontent.com\/keung2020\/xwhyc-rules\/master\//g' feeds/luci/applications/luci-app-adbyby-plus/root/usr/share/adbyby/adupdate.sh
+#sed -i 's/https:\/\/adbyby\.coding\.net\/p\/xwhyc-rules\/d\/xwhyc-rules\/git\/raw\/master\//https:\/\/raw.githubusercontent.com\/keung2020\/xwhyc-rules\/master\//g' feeds/luci/applications/luci-app-adbyby-plus/root/usr/share/adbyby/adbybyupdate.sh
+#sed -i 's/https:\/\/adbyby\.coding\.net\/p\/xwhyc-rules\/d\/xwhyc-rules\/git\/raw\/master\//https:\/\/raw.githubusercontent.com\/keung2020\/xwhyc-rules\/master\//g' feeds/luci/applications/luci-app-adbyby-plus/root/usr/share/adbyby/admem.sh
 
 # Modify the version number
 sed -i "s/OpenWrt /BrianLuo build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
