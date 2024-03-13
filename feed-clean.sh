@@ -51,4 +51,5 @@
 #rm -rf feeds/packages/net/hysteria
 #rm -rf feeds/packages/net/smartdns
 #rm -rf feeds/packages/net/shadowsocks-rust
+rm -rf package/feeds/small/gn
 ./scripts/feeds update -a
