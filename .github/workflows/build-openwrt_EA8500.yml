@@ -108,8 +108,8 @@ jobs:
       uses: stupidloud/cachewrtbuild@main
       with:
         ccache: 'true'
-        mixkey: 'ipq'
-        prefix: 'ea8500'    
+        mixkey: 'ipq806x'
+        prefix: 'openwrt'    
 
     - name: Download package
       id: package
