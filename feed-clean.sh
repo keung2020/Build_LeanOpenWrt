@@ -75,7 +75,7 @@ function merge_package() {
 #rm -rf feeds/packages/net/hysteria
 #rm -rf feeds/packages/net/smartdns
 #rm -rf feeds/packages/net/shadowsocks-rust
-rm -rf feeds/small/gn
-rm -rf feeds/small/shadowsocks-rust
-merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/small net/shadowsocks-rust
-./scripts/feeds update -a
+#rm -rf feeds/small/gn
+#rm -rf feeds/small/shadowsocks-rust
+#merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/small net/shadowsocks-rust
+#./scripts/feeds update -a
