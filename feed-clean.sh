@@ -80,6 +80,6 @@ function merge_package() {
 #merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/small net/shadowsocks-rust
 rm -rf feeds/small/xray-core
 rm -rf feeds/small/xray-plugin
-merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/small net/xray-plugin
-merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/small net/xray-core
+merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/packages/net net/xray-plugin
+merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/packages/net net/xray-core
 #./scripts/feeds update -a
