@@ -65,8 +65,8 @@ function merge_package() {
 #rm -rf feeds/luci/applications/luci-app-xlnetacc
 #rm -rf feeds/luci/applications/luci-app-xunlei
 #rm -rf feeds/luci/applications/luci-theme-argon
-rm -rf feeds/luci/applications/luci-app-nlbwmon
-rm -rf feeds/luci/applications/luci-i18n-nlbwmon-zh-cn=n
+#rm -rf feeds/luci/applications/luci-app-nlbwmon
+#rm -rf feeds/luci/applications/luci-i18n-nlbwmon-zh-cn=n
 #rm -rf feeds/packages/net/naiveproxy
 #rm -rf feeds/packages/net/xray-core
 #rm -rf feeds/packages/net/xray-plugin
