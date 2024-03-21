@@ -77,11 +77,9 @@ function merge_package() {
 #rm -rf feeds/packages/net/hysteria
 #rm -rf feeds/packages/net/smartdns
 #rm -rf feeds/packages/net/shadowsocks-rust
-rm -rf feeds/small/gn
+#rm -rf feeds/small/gn
 #rm -rf feeds/small/shadowsocks-rust
 #merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/small net/shadowsocks-rust
-rm -rf feeds/small/xray-core
-rm -rf feeds/small/xray-plugin
-merge_package openwrt-21.02 https://github.com/immortalwrt/packages feeds/packages/net net/xray-plugin
-merge_package openwrt-21.02 https://github.com/immortalwrt/packages feeds/packages/net net/xray-core
-#./scripts/feeds update -a
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
+./scripts/feeds update -a
